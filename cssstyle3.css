@@ -1,0 +1,145 @@
+.container{
+  color:#424242;
+  margin: auto;
+  width: 1000px;
+  height: 1000px;
+  border:1px solid rgb(236, 231, 231);
+  cursor: pointer;
+  
+  
+}
+.childcontainer{
+  height: 80px;
+border:1px solid rgb(236, 231, 231);
+margin: auto;
+padding-left: 80px;
+padding-top: 1px;
+box-shadow: 0px 3px 30px #7b7b7b29;
+font: normal normal bold 40px/69px Inter;
+cursor: pointer;
+
+}
+.list{
+color: #00A5EC;
+}
+.icon{
+position: absolute;
+top: 112px;
+left: 720px;
+font-size: 40px;
+color: #00A5EC;
+}
+.ant{
+  position: absolute;
+  left: 780px;
+  top: 122px;
+ font-size: 18px;
+ color:black ;
+ }
+a{
+  text-decoration: none;
+  
+}
+.flex-container{
+  width: 100%;
+  height: 900px;
+
+  display: flex ;
+  flex-flow:row wrap ;
+ 
+}
+.iconback{
+  position: absolute;
+  top: 120px;
+  left:1000px;
+  font-size: 40px;
+  color:black;
+}
+#child1{
+
+  width: 380px;
+  height: 280px;
+  line-height: 35px;
+  padding: 5px 5px 5px 5px;
+  margin: 87px 0px 0px 280px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 5px solid #EDEDED;
+  border-radius: 10px;
+  opacity: 1;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+
+}
+#child1:hover{
+  width: 381px;
+  height: 280px;
+}
+
+.checkbox1{
+text-decoration: line-through;
+}
+h3{
+  color: blue;
+
+}
+.iconback{
+  position: absolute;
+  top: 120px;
+  left:400px;
+  font-size: 30px;
+  color:black;
+}
+.container3{
+  height: 250px;
+  width: 500px;
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #67676729;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+p3{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 30px;
+}
+.p4{
+position: absolute;
+top: 2px;
+left: 432px;
+padding-left: 10px;
+padding-right: 190px;
+margin: 20px 1px 24px 10px;
+font-weight: bold;
+font-size: 30px;
+
+}
+.input{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 10px;
+  padding-right: 190px;
+margin: 50px 30px 40px 10px;
+background-color:#9d8e8e1c;
+
+ }
+ button{
+  padding-left: 10px;
+  margin:3px 30px 40px 340px;
+  text-align: left;
+font: normal normal normal 18px/21px Inter;
+letter-spacing: 0px;
+color: #FFFFFF;
+background-color: #00A5EC;
+opacity: 1;
+ }
